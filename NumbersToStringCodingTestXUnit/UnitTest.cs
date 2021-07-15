@@ -66,6 +66,8 @@ namespace NumbersToStringCodingTestXUnit
 
       Assert.NotNull(viewResult);
       Assert.Equal(amount, viewResult.Number);
+
+      Assert.Equal("Number bigger than the max number 999999.99", viewResult.Text);
     }
   }
 }
