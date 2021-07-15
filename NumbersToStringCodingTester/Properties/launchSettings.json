@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "NumbersToStringCodingTester": {
+      "commandName": "Project",
+      "remoteDebugEnabled": false
+    }
+  }
+}

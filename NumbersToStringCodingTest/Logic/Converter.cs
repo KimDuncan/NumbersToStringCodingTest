@@ -35,7 +35,7 @@ namespace NumbersToStringCodingTest.Logic
           return Convert(amount_int) + " Dollars and " + Convert(amount_dec) + " Cents";
         }
       }
-      catch (Exception e)
+      catch (Exception)
       {
         throw new InvalidCastException("Amount cant be converted", 40);
       }
